@@ -10,10 +10,19 @@ h3 {
   font-family: 'Staatliches', cursive;
   text-transform: uppercase;
   font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 34px;
 }
 
 body {
   background: #efefef;
+  font-family: 'Poppins';
 }
 
 body::before {
@@ -60,6 +69,64 @@ form {
 
 fieldset {
   border: none;
+  margin-bottom: 30px;
+}
+
+fieldset legend {
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e6e6f0;
+}
+
+.col-2 {
+  display: flex;
+  gap: 22px;
+}
+
+.col-3 {
+  display: flex;
+  gap: 32px;
+}
+
+.time-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.sub-fieldset {
+  margin-top: 16px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.input-wrapper label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4958;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.input-wrapper label span {
+  font-size: 12px;
+  line-height: 20px;
+  color: #c1bccc;
+}
+
+.input-wrapper input {
+  height: 56px;
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  padding: 12px;
 }
 
 footer {
